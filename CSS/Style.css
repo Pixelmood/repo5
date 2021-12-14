@@ -39,9 +39,7 @@ background-color: white;
     text-decoration: none;
 }
 
-.navLayout .navItem:hover .navLink{
-    color: darkred;
-}
+
 
  
  .navLayout{
@@ -136,6 +134,19 @@ section .card {
     color: black;
     margin: 15px;
     padding: 15px;
+}
+/*Animacion*/
+
+.indexCard:hover{ 
+
+
+    transform: scale(1.05,1.05);
+
+
+}
+
+.navLayout .navItem:hover .navLink{
+    color: darkred;
 }
 
 
